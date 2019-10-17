@@ -45,6 +45,11 @@ namespace CakeShop.Migrations
                     b.Property<decimal>("Price")
                         .HasMaxLength(255);
 
+                    //Daniel Added
+                    b.Property<int>("Calories")
+                        .IsRequired()
+                        .HasMaxLength(255);
+
                     b.Property<string>("ShortDescription")
                         .IsRequired()
                         .HasMaxLength(50);

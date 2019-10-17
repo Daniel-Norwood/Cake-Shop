@@ -24,12 +24,14 @@ namespace CakeShop.Persistence
                 new Category { Name = "Fruit Cakes"}
             };
 
+            //Daniel Added Calories to each cake
             var cakes = new List<Cake>
             {
                 new Cake
                 {
                     Name ="Strawberry Cake",
                     Price = 48.00M,
+                    Calories = 5050,
                     ShortDescription ="Yammy Sweet & Testy",
                     LongDescription ="Icing carrot cake jelly-o cheesecake. tootsie roll oat cake pie chocolate bar cookie dragée brownie. Lollipop cotton candy cake bear claw oat cake.dragée gummies.",
                     Category = categories[0],
@@ -40,6 +42,7 @@ namespace CakeShop.Persistence
                 {
                     Name ="Dark Chocolate Cake",
                     Price =45.50M,
+                    Calories = 6000,
                     ShortDescription ="Yammy! Dark Chocolate Flavour",
                     LongDescription ="Icing carrot cake jelly-o cheesecake. tootsie roll oat cake pie chocolate bar cookie dragée brownie. Lollipop cotton candy cake bear claw oat cake.dragée gummies.",
                     Category = categories[1],
@@ -50,6 +53,7 @@ namespace CakeShop.Persistence
                 {
                     Name ="Special Chocolate Cake",
                     Price = 40.50M,
+                    Calories = 4500,
                     ShortDescription ="Taste Our Special Chocolates",
                     LongDescription ="Icing carrot cake jelly-o cheesecake. tootsie roll oat cake pie chocolate bar cookie dragée brownie. Lollipop cotton candy cake bear claw oat cake.dragée gummies.",
                     Category = categories[1],
@@ -60,6 +64,7 @@ namespace CakeShop.Persistence
                 {
                     Name ="Red Velvet Cake",
                     Price=35.00M,
+                    Calories = 5500,
                     ShortDescription ="Our Special Cake",
                     LongDescription ="Icing carrot cake jelly-o cheesecake. tootsie roll oat cake pie chocolate bar cookie dragée brownie. Lollipop cotton candy cake bear claw oat cake.dragée gummies.",
                     Category = categories[0],
@@ -70,6 +75,7 @@ namespace CakeShop.Persistence
                 {
                     Name ="Mixed Fruit Cake",
                     Price = 30.50M,
+                    Calories = 2050,
                     ShortDescription ="Fruity & Testy",
                     LongDescription ="Icing carrot cake jelly-o cheesecake. tootsie roll oat cake pie chocolate bar cookie dragée brownie. Lollipop cotton candy cake bear claw oat cake.caramels.",
                     Category = categories[2],

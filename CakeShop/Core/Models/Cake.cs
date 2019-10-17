@@ -18,6 +18,11 @@ namespace CakeShop.Core.Models
         [StringLength(255)]
         public string LongDescription { get; set; }
 
+        //Added by Daniel
+        [Required]
+        [StringLength(255)]
+        public int Calories { get; set; }
+
         [Required]
         [StringLength(255)]
         public decimal Price { get; set; }

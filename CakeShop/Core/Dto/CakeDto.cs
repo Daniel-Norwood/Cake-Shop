@@ -24,6 +24,11 @@ namespace CakeShop.Core.Dto
         [Display(Name = "Price")]
         public decimal Price { get; set; }
 
+        //Daniel Added
+        [Required]
+        [Display(Name = "Calories")]
+        public int Calories { get; set; }
+
         [Required]
         [Display(Name = "Image Url")]
         public string ImageUrl { get; set; }
