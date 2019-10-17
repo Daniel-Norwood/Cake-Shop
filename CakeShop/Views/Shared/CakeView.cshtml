@@ -8,8 +8,8 @@
                 @Model.Name
             </h5>
             <p class="card-text d-inline float-right">@Model.Price.ToString("c")</p>
-            <center><p><i>@Model.Calories.ToString() Calories </i></p></center>
             <p class="card-text card-short-description"><i>@Model.ShortDescription</i></p>
+            <p><i>@Model.Calories.ToString() Calories </i></p>
             <form asp-action="AddToShoppingCart"
                   asp-controller="ShoppingCart"
                   asp-route-cakeId="@Model.Id"
