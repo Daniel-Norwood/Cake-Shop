@@ -51,6 +51,7 @@ namespace CakeShop.Persistence
                     OrderTotal = e.OrderTotal,
                     OrderPlaceDetails = new OrderDto
                     {
+                        Notes = e.Notes,
                         AddressLine1 = e.AddressLine1,
                         AddressLine2 = e.AddressLine2,
                         City = e.City,
@@ -83,6 +84,7 @@ namespace CakeShop.Persistence
                     OrderTotal = e.OrderTotal,
                     OrderPlaceDetails = new OrderDto
                     {
+                        Notes = e.Notes,
                         AddressLine1 = e.AddressLine1,
                         AddressLine2 = e.AddressLine2,
                         City = e.City,

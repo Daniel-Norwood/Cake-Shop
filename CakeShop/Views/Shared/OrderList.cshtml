@@ -41,7 +41,11 @@
                     <div>@order.OrderPlaceDetails.Email</div>
                     <br />
                     <div>
-                        @order.OrderPlacedTime.Date.ToString("dd/MM/yyyy")
+                         @order.OrderPlacedTime.Date.ToString("dd/MM/yyyy")
+                    </div>
+                    <br />
+                    <div>
+                         Notes:   @order.OrderPlaceDetails.Notes
                     </div>
 
                 </td>

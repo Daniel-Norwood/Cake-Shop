@@ -25,6 +25,7 @@ namespace CakeShop.Migrations
                     OrderTotal = table.Column<decimal>(nullable: false),
                     PhoneNumber = table.Column<string>(maxLength: 10, nullable: false),
                     State = table.Column<string>(maxLength: 255, nullable: false),
+                    Notes = table.Column<string>(maxLength: 1000, nullable: true), //added by Daniel
                     ZipCode = table.Column<string>(maxLength: 6, nullable: false)
                 },
                 constraints: table =>

@@ -19,6 +19,11 @@ namespace CakeShop.Core.Models
 
         [StringLength(255)]
         [Required]
+
+        public string Notes { get; set; }
+
+        [StringLength(1000)]
+       
         public string LastName { get; set; }
 
         [StringLength(255)]

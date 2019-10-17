@@ -126,6 +126,10 @@ namespace CakeShop.Migrations
                         .IsRequired()
                         .HasMaxLength(6);
 
+                    //Added by Daniel
+                    b.Property<string>("Notes")
+                        .HasMaxLength(1000);
+
                     b.HasKey("Id");
 
                     b.HasIndex("UserId");

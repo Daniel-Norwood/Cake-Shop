@@ -5,6 +5,9 @@ namespace CakeShop.Core.Dto
     public class OrderDto
     {
 
+        [StringLength(1000)]
+        [Display(Name = "Notes")]
+        public string Notes { get; set; }
 
         [StringLength(255)]
         [Display(Name = "First Name")]

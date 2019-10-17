@@ -76,6 +76,9 @@ namespace CakeShop.Migrations
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd();
 
+                    b.Property<string>("Notes")
+                        .HasMaxLength(1000);
+
                     b.Property<string>("AddressLine1")
                         .IsRequired()
                         .HasMaxLength(255);
